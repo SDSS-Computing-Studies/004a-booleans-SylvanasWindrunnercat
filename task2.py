@@ -10,3 +10,19 @@
 # - "positive"
 # - "negative"
 # - "zero"
+a = input("The number is:")
+
+a = int(a)
+
+number = 0
+
+number = int(number)
+
+if a > number:
+    print("The number is positive")
+
+if a < number:
+    print("The number is negative")
+
+if a == number:
+    print("The number is zero")

@@ -11,3 +11,19 @@
 # "The number is larger than 100"
 # "The number is smaller than 100"
 # "The number is 100"
+a = input ("The number is:")
+
+a = int(a)
+
+Number = 100
+
+Number = int(Number)
+
+if a > Number:
+     print("The number is larger than 100")
+
+if a < Number:
+     print("The number is smaller than 100")
+
+if a == Number:
+     print("The number is 100")
