@@ -17,3 +17,25 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
+a = input("The number is:")
+
+a = int(a)
+
+if 0 < a < 10:
+    input("The number is larger than zero")
+elif 10 < a < 100:
+    input("The number is larger than ten")
+elif 100 < a < 1000:
+    input("The number is larger than hunderd")
+elif a > 1000:
+    input("The number is larger than thousand")
+elif a < 0:
+    input("The number is smaller than zero")
+elif a == 0:
+    input("The number is zero")
+elif a == 10:
+    input("The number is ten")
+elif a == 100:
+    input("The number is one hunderd")
+elif a == 1000:
+    input("The number is one thousand")
