@@ -15,3 +15,19 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+a = input("A is:")
+b = input("B is:")
+c = input("C is:")
+
+a = float(a)
+b = float(b)
+c = float(c)
+
+import math
+
+d = b*2 - 4*a*c
+
+if d < 0:
+    print("The equation has no solutions")
+elif d == int(d):
+    print("The equation can be factored")

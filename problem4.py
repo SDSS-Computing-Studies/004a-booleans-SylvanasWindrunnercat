@@ -12,3 +12,21 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
+a = input("The side1 is:")
+b = input("The side2 is:")
+c = input("The actual side is:")
+
+a = float(a)
+b = float(b)
+c = float(c)
+
+import math
+
+d = math.sqrt (a**2 + b**2)
+
+if 0 <= d - c <= 0.02:
+    print("That is a right triangle")
+elif d - c < 0:
+    print("That is an acute triangle")
+elif d - c > 0.02:
+    print("That is an obtuse triangle")
